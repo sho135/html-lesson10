@@ -24,7 +24,7 @@ main {
 }
 
 .step-box:last-child {
-  margin-right: 0%;
+  margin-right: 0;
 }
 
 .step-img1 {
@@ -71,40 +71,39 @@ footer {
     height: 50px;
     margin-bottom: 50px;
   }
-}
+  main {
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+  }
 
-main {
-  width: 100%;
-  display: block;
-  margin: 50px auto;
-}
+  .step-box {
+    width: 90%;
+    margin: 20px auto;
+  }
 
-.step-box {
-  width: 90%;
-  margin: 20px auto;
-}
+  .step-box:nth-child(3) {
+    margin: 0 auto;
+  }
 
-.step-box:nth-child(3) {
-  margin: 0 auto;
-}
+  .step-img1 {
+    height: 150px;
+    padding-top: 36%;
+  }
 
-.step-img1 {
-  height: 150px;
-  padding-top: 36%;
-}
+  .step-img2 {
+    height: 150px;
+    padding-top: 36%;
+  }
 
-.step-img2 {
-  height: 150px;
-  padding-top: 36%;
-}
+  .step-img3 {
+    height: 150px;
+    padding-top: 36%;
+  }
 
-.step-img3 {
-  height: 150px;
-  padding-top: 36%;
-}
-
-footer {
-  width: 100%;
-  height: 50px;
-  margin-top: 50px;
+  footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+  }
 }
